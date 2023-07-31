@@ -36,7 +36,6 @@ app.get('/login', function (req, res) {
   })
 })
 
-<<<<<<< HEAD
 app.get("/dashboard", function (req, res) {
   res.render("pages/dashboard", {
     layout: "./layouts/authentication",
@@ -45,7 +44,3 @@ app.get("/dashboard", function (req, res) {
 
 app.listen(3000);
 console.log("Server is running");
-=======
-app.listen(3000)
-console.log('Server is running')
->>>>>>> 470512d1f54ab1b0f4b1891926948fdccc6f8f28
