@@ -32,5 +32,11 @@ app.get("/login", function (req, res) {
   });
 });
 
+app.get("/dashboard", function (req, res) {
+  res.render("pages/dashboard", {
+    layout: "./layouts/authentication",
+  });
+});
+
 app.listen(3000);
 console.log("Server is running");
