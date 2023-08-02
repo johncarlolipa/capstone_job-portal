@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        assistant: ["Assistant", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        noto: ["Noto", "sans-serif"],
       },
       colors: {
         "mountain-meadow": {
@@ -22,6 +24,17 @@ module.exports = {
           950: "#053827",
         },
       },
+      fontSizes: {
+        '10xl': ' 4.375rem',
+        '5xl': '2.5rem',
+        '4xl': '2rem',
+        '3xl': '1.25rem',
+        '2xl': '1.125rem',
+        'xl':'1rem',
+        'lg':'0.875rem',
+        'md' :'.75rem ',
+        'sm' : '.625rem',
+      }
     },
   },
   plugins: [],
