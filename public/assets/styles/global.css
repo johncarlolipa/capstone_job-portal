@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,13 +11,11 @@
 }
 
 .btn-primary {
-  @apply bg-mountain-meadow-600 text-mountain-meadow-900 hover:bg-mountain-meadow-500 focus-visible:outline-mountain-meadow-600;
+  @apply bg-blue-400 text-blue-900 hover:bg-blue-500 focus-visible:outline-blue-600;
 }
 
 .btn-secondary {
-  @apply bg-mountain-meadow-800 text-white hover:bg-mountain-meadow-800 focus-visible:outline-mountain-meadow-900;
+  @apply bg-red text-white hover:bg-red-200 focus-visible:outline-red;
 }
 
-.btn-primary-outline {
-  @apply border border-mountain-meadow-900 bg-transparent text-mountain-meadow-900 hover:bg-mountain-meadow-800 focus-visible:outline-mountain-meadow-900;
-}
+

@@ -4,23 +4,48 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        assistant: ["Assistant", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        noto: ["Noto", "sans-serif"],
       },
       colors: {
-        "mountain-meadow": {
-          DEFAULT: "#10B981",
-          50: "#D7FCEF",
-          100: "#C4FAE8",
-          200: "#9EF7D9",
-          300: "#79F3CB",
-          400: "#53F0BC",
-          500: "#2EEDAE",
-          600: "#13DF9B",
-          700: "#10B981",
-          800: "#0C855D",
-          900: "#075239",
-          950: "#053827",
+        blue: {
+          DEFAULT: "#2D317B",
+          50: "#8B8FD5",
+          100: "#7C80CF",
+          200: "#5E63C4",
+          300: "#4349B7",
+          400: "#383D99",
+          500: "#2D317B",
+          600: "#1E2152",
+          700: "#0F1029",
+          800: "#000000",
+          900: "#000000",
+          950: "#000000",
         },
+        red: {
+          DEFAULT: "#7B2D2D",
+        },
+        green: {
+          DEFAULT: "#12AF22",
+        },
+        gray: {
+          DEFAULT: "#363940",
+        },
+        black: {
+          DEFAULT: "#000000",
+        },
+      },
+      fontSizes: {
+        "10xl": " 4.375rem",
+        "5xl": "2.5rem",
+        "4xl": "2rem",
+        "3xl": "1.25rem",
+        "2xl": "1.125rem",
+        xl: "1rem",
+        lg: "0.875rem",
+        md: ".75rem ",
+        sm: ".625rem",
       },
     },
   },
