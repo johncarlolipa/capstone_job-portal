@@ -13,10 +13,6 @@ app.get('/', function (req, res) {
   res.render('pages/index')
 })
 
-app.get('/ben', function (req, res) {
-  res.send('ben')
-})
-
 app.get('/about', function (req, res) {
   res.render('pages/about', {
     people: [
@@ -36,11 +32,6 @@ app.get('/login', function (req, res) {
   })
 })
 
-app.get("/dashboard", function (req, res) {
-  res.render("pages/dashboard", {
-    layout: "./layouts/authentication",
-  });
-});
 
 app.listen(3000);
 console.log("Server is running");
