@@ -12,8 +12,15 @@
     />
   </head>
   <body class="font-noto">
-    <%- include('../partials/shared/header.ejs'); %>
-    <main><%- body %></main>
+    <header>
+      <%- include('../partials/shared/header.ejs'); %>
+    </header>
+    
+    <main>
+      <%- include('../partials/home/hero-section.ejs'); %>
+      
+
+	</main>
     <%- include('../partials/shared/footer.ejs'); %>
 
     <script src="//unpkg.com/alpinejs" defer></script>
