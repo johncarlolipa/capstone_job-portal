@@ -6,7 +6,6 @@ module.exports = {
       fontFamily: {
         assistant: ["Assistant", "sans-serif"],
         inter: ["Inter", "sans-serif"],
-        noto: ["Noto", "sans-serif"],
       },
       colors: {
         blue: {
