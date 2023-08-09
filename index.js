@@ -15,6 +15,30 @@ app.get('/', function(req, rest){
   rest.render('pages/home');
 });
 
+
+// About Page
+
+app.get('/about', function(req, res){
+  res.render('pages/about')
+});
+// Trabaho Page
+
+app.get('/trabaho', function(req, res){
+  res.render('pages/trabaho')
+});
+
+// Blog Page
+
+app.get('/blog', function(req, res){
+  res.render('pages/blog')
+});
+
+// Employer Page
+
+app.get('/employer', function(req, res){
+  res.render('pages/employer')
+});
+
 // Server port
 
 app.listen(3000);
