@@ -3,41 +3,41 @@ let newInformation = [
         img: "#",
 
         position: "Tubero",
-        recruiter: "Lalimbahay",
-        location: "Quezon City",
+        recruiter: "Gedli",
+        location: "Marikina City",
 
-        salary: "PHP 250 per day",
+        salary: "PHP 650 per day",
         perks: "Free Food",
     },
     {
         img: "#",
 
-        position: "Tubero",
-        recruiter: "Lalimbahay",
-        location: "Quezon City",
+        position: "Sepultulero",
+        recruiter: "St.Peter",
+        location: "North Cemetery",
 
-        salary: "PHP 250 per day",
-        perks: "Free Food",
+        salary: "PHP 550 per day",
+        perks: "Free Food, Unli Rice",
     },
     {
         img: "#",
 
-        position: "Tubero",
-        recruiter: "Lalimbahay",
-        location: "Quezon City",
+        position: "Welder",
+        recruiter: "Batumbakal Corp.",
+        location: "Tondo City",
 
-        salary: "PHP 250 per day",
-        perks: "Free Food",
+        salary: "PHP 350 per day",
+        perks: "Free Food, Unli Drinks",
     },
     {
         img: "#",
 
-        position: "Tubero",
-        recruiter: "Lalimbahay",
-        location: "Quezon City",
+        position: "Kusinero",
+        recruiter: "Lababo Inc.",
+        location: "Pasay City",
 
-        salary: "PHP 250 per day",
-        perks: "Free Food",
+        salary: "PHP 450 per day",
+        perks: "Free Food, Unli Kape",
     },
 ] 
 

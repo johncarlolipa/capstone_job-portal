@@ -2,29 +2,23 @@ articleInformation = [
     {
         image: "",
         headline: "I-Ilang mga pilipino ang nagkaroong ng trabaho dahil sa hanap",
-        description: "The only moment, the only life we have is in the NOW. What happened a few moments or \
-                      several years ago is gone, what will happen this evening, or next month when we go on \
-                      holidays is not here yet.",
-        date: "10 Oct 23",
-        author: "Jane Ostin"
+        description: "Sa Hanapp Job Portal, libu-libong Pilipino ang nagkaroon ng oportunidad na magkaroon ng trabaho. Ipinapakita ng Hanapp ang malaking epekto nito sa pagsusulong ng trabaho sa bansa. Sa pamamagitan ng pagbibigay...",
+        date: "10 Aug, 23",
+        author: "Jose Batumbakal"
     },
     {
         image: "",
-        headline: "I-Ilang mga pilipino ang nagkaroong ng trabaho dahil sa hanap",
-        description: "The only moment, the only life we have is in the NOW. What happened a few moments or \
-                      several years ago is gone, what will happen this evening, or next month when we go on \
-                      holidays is not here yet.",
-        date: "10 Oct 23",
-        author: "Jane Ostin"
+        headline: "Paano Mag-Excel sa Job Interview",
+        description: "Marami sa atin ang kinakabahan tuwing may job interview. Narito ang ilang tips para mas mapabilis ang iyong pag-angat sa job interview:",
+        date: "11 Aug, 23",
+        author: "Kardo Dalisay"
     },
     {
         image: "",
-        headline: "I-Ilang mga pilipino ang nagkaroong ng trabaho dahil sa hanap",
-        description: "The only moment, the only life we have is in the NOW. What happened a few moments or \
-                      several years ago is gone, what will happen this evening, or next month when we go on \
-                      holidays is not here yet.",
-        date: "10 Oct, 23",
-        author: "Jane Ostin"
+        headline: "Kahalagahan ng Work-Life Balance",
+        description: "Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya, mahirap mapanatili ang balanse sa pagitan ng trabaho at personal na buhay. Narito ang ilang paraan para mapanatili ang work-life balance",
+        date: "11 Aug, 23",
+        author: "Pedro Penduko"
     },
 ]
 

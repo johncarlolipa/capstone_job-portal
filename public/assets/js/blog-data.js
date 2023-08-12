@@ -2,25 +2,22 @@ let blogInformation = [
         {
             date: "March 14th, 2019",
             headline:"I-ilang mga pilipino ang nagkaroon ng trabaho dahil sa hanap",
-            author: "By: Chenso",
-            description: "Earlier this week, at the expansive Computer History Museum in \
-                          Mountain View, Calif., Y Combinator introduced an exhaustive…",
+            author: "By: Jose Batumbakal",
+            description: "Sa Hanapp Job Portal, libu-libong Pilipino ang nagkaroon ng oportunidad na magkaroon ng trabaho. Ipinapakita ng Hanap ang malaking epekto nito sa pagsusulong ng trabaho sa bansa...",
+            button: "secondary-button | w-[139px]"
+        },
+        {
+            date: "March 14th, 2019",
+            headline:"Paano Mag-Excel sa Job Interview",
+            author: "By: Kardo Dalisay",
+            description: "Marami sa atin ang kinakabahan tuwing may job interview. Narito ang ilang tips para mas mapabilis ang iyong pag-angat sa job interview: Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya sa pagitan ng trabaho at personal na buhay pati na rin...",
             button: "secondary-button | w-[139px]"
         },
         {
             date: "March 14th, 2019",
             headline:"I-ilang mga pilipino ang nagkaroon ng trabaho dahil sa hanap",
-            author: "By: Chenso",
-            description: "Earlier this week, at the expansive Computer History Museum in \
-                          Mountain View, Calif., Y Combinator introduced an exhaustive…",
-            button: "secondary-button | w-[139px]"
-        },
-        {
-            date: "March 14th, 2019",
-            headline:"I-ilang mga pilipino ang nagkaroon ng trabaho dahil sa hanap",
-            author: "By: Chenso",
-            description: "Earlier this week, at the expansive Computer History Museum in \
-                          Mountain View, Calif., Y Combinator introduced an exhaustive…",
+            author: "By: Pedro Penduko",
+            description: "Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya, mahirap mapanatili ang balanse sa pagitan ng trabaho at personal na buhay. Narito ang ilang paraan para mapanatili...",
             button: "secondary-button | w-[139px]"
         }
     ]
