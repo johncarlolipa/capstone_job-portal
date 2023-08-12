@@ -10,8 +10,22 @@
 
     <main>
         
+        <!-- Form Section -->
+
        <section>
             <%- include('../partials/forms/login.ejs'); %>
+       </section>
+
+       <!-- Newsletter Section -->
+
+       <section>
+            <%- include('../partials/shared/newsletter.ejs'); %> 
+       </section>
+
+       <!-- Blog Section -->
+
+       <section>
+            <%- include('../partials/shared/blog.ejs', {blogInformation}); %>
        </section>
     </main>
 

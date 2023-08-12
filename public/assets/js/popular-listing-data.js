@@ -17,7 +17,7 @@ let popularInformation = [
         location: "North Cemetery",
 
         salary: "PHP 550 per day",
-        perks: "Free Food, Unli Rice",
+        perks: "Unli Rice",
     },
     {
         img: "#",
@@ -27,7 +27,7 @@ let popularInformation = [
         location: "Tondo City",
 
         salary: "PHP 350 per day",
-        perks: "Free Food, Unli Drinks",
+        perks: "Unli Drinks",
     },
     {
         img: "#",
@@ -37,7 +37,7 @@ let popularInformation = [
         location: "Pasay City",
 
         salary: "PHP 450 per day",
-        perks: "Free Food, Unli Kape",
+        perks: "Unli Kape",
     },
 ] 
 

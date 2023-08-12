@@ -10,7 +10,7 @@ let blogInformation = [
             date: "March 14th, 2019",
             headline:"Paano Mag-Excel sa Job Interview",
             author: "By: Kardo Dalisay",
-            description: "Marami sa atin ang kinakabahan tuwing may job interview. Narito ang ilang tips para mas mapabilis ang iyong pag-angat sa job interview: Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya sa pagitan ng trabaho at personal na buhay pati na rin...",
+            description: "Marami sa atin ang kinakabahan tuwing may job interview. Narito ang ilang tips para mas mapabilis ang iyong pag-angat sa job interview: Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya sa pagitan ng trabaho at personal na bu...",
             button: "secondary-button | w-[139px]"
         },
         {

@@ -118,12 +118,18 @@ app.get('/employer', function(req, res){
  // Log In Page 
 
  app.get('/login', function(rec, res){
-  res.render('pages/login')
+  res.render('pages/login',{
+        /* Blog Data */ 
+        blogInformation: blogInformation
+  })
  })
 
 
  app.get('/register', function(rec, res){
-  res.render('pages/register')
+  res.render('pages/register',{
+    /* Blog Data */ 
+    blogInformation: blogInformation
+  });
  }) 
 // Server port
 
