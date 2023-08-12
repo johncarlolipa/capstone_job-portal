@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/shared/head.ejs'); %>
+</head>
+<body>
+    <header>
+        <%- include('../partials/shared/header.ejs'); %>
+    </header>
+
+    <main>
+
+        <!-- Primary Description -->
+
+        <section>
+            <%- include('../partials/about/primary-description.ejs'); %>
+        </section>
+
+        <!-- Secondary Description -->
+
+        <section>
+            <%- include('../partials/about/secondary-description.ejs'); %>
+        </section>
+
+        <!-- Milestone Section -->
+        
+        <section>
+            <%- include('../partials/about/milestone.ejs', {milestoneInformation}); %>
+        </section>
+
+        <!-- Testimony Description -->
+
+        <section>
+            <%- include('../partials/about/testimony-description'); %>
+        </section>
+
+        <!-- Trusted Company Section -->
+
+        <section>
+            <%- include('../partials/shared/trusted.ejs', {trustedInformation}); %>
+        </section>
+
+        <!-- Testimony Section -->
+
+        <section>
+            <%- include('../partials/about/testimony.ejs', {testimonyInformation}); %>
+        </section>
+
+        <!-- Career Section -->
+
+        <section>
+            <%- include('../partials/about/career.ejs'); %>
+        </section>
+
+        <!-- blog section -->
+        <section>
+            <%- include('../partials/shared/blog.ejs', {blogInformation}); %>
+        </section>
+
+
+     
+       
+    </main>
+
+    <footer>
+        <%- include('../partials/shared/footer.ejs'); %>
+    </footer>
+
+    <!-- JS Libary -->
+    <%- include('../jsLibrary/library.ejs'); %>
+</body>
+</html>

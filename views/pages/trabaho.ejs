@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/shared/head.ejs'); %>
+</head>
+<body>
+    <header>
+        <%- include('../partials/shared/header.ejs'); %>
+    </header>
+
+    <main>
+        <section>
+            <%- include('../partials/trabaho/filter-search.ejs'); %>
+        </section>
+
+
+        <section>
+            <%- include('../partials/trabaho/job-feed.ejs', {jobInformation}); %>
+        </section>
+        <section>
+            <%- include('../partials/shared/blog.ejs', {blogInformation}); %>
+        </section>
+    </main>
+
+    <footer>
+        <%- include('../partials/shared/footer.ejs'); %>
+    </footer>
+        <!-- JS Libary -->
+        <%- include('../jsLibrary/library.ejs'); %>
+</body

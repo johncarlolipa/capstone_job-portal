@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/shared/head.ejs'); %>
+</head>
+<body>
+    <header>
+        <%- include('../partials/shared/header.ejs'); %>
+    </header>
+
+    <main>
+
+        <!-- Primary Description Section -->
+        <section>
+            <%- include('../partials/employer/employer-primary-description.ejs'); %>
+        </section>
+
+        <!-- Pricing Section -->
+
+        <section>
+            <%- include('../partials/employer/pricing.ejs'); %>
+        </section>
+
+        <!-- Why Us Section -->
+
+        <section>
+            <%- include('../partials/employer/why.ejs', {whyInformation}); %>
+        </section>
+    
+
+        <!-- Trusted Company Section -->
+
+
+
+        <!-- Employer Testimony Section -->
+
+        <section>
+            <%- include('../partials/employer/employer-testimony.ejs', {emptestimonyInformation}); %>
+        </section>
+
+
+        <section>
+            <%- include('../partials/shared/trusted.ejs', {trustedInformation}); %>
+        </section>
+
+        
+        <!-- CTA Employer Registration Section -->
+
+        <section>
+            <%- include('../partials/employer/cta-employer-registration.ejs'); %>
+        </section>
+
+        <!-- Blog Section -->
+
+        <section>
+            <%- include('../partials/shared/blog.ejs', {blogInformation}); %>
+        </section>
+    </main>
+
+    <footer>
+        <%- include('../partials/shared/footer.ejs'); %>
+    </footer>
+        <!-- JS Libary -->
+        <%- include('../jsLibrary/library.ejs'); %>
+</body>

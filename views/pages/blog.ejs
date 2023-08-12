@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/shared/head.ejs'); %>
+</head>
+<body>
+    <header>
+        <%- include('../partials/shared/header.ejs'); %>
+    </header>
+
+    <main>
+        <!-- Main Description Section  -->
+
+        <section>
+            <%- include('../partials/blog/blog-main-description.ejs'); %>
+        </section>
+
+        <!-- Search Section -->
+
+        <section>
+            <%- include('../partials/blog/blog-filter-search.ejs'); %>
+        </section>
+        
+
+        <!-- Recent Article Section -->
+
+        <section> 
+            <%- include('../partials/blog/recent-article.ejs', {articleInformation}); %> 
+        </section>
+
+        <!-- Popular Article Section-->
+
+        <section> 
+            <%- include('../partials/blog/popular-article.ejs', {poparticleInformation}); %> 
+        </section>
+
+        <!-- Newsletter Section -->
+
+        <section> 
+            <%- include('../partials/shared/newsletter.ejs'); %> 
+        </section>
+    </main>
+
+    <footer>
+        <%- include('../partials/shared/footer.ejs'); %>
+    </footer>
+
+        <!-- JS Libary -->
+        <%- include('../jsLibrary/library.ejs'); %>
+</body

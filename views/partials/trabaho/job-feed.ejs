@@ -1,0 +1,132 @@
+<div class="w-full | 2xl:px-[20rem] px-[2rem] | py-[4rem]">
+    <div class="grid | place-items-center | lg:place-items-stretch | gap-[30px] lg:flex | h-full">
+        <!-- Left Section -->
+        <div class=" flex | flex-col | gap-[2rem] | justify-center">
+            <p class="font-inter | font-normal | text-[16px] | self-center">Sort by : <strong>relevance </strong> &verbar; <strong>1-30</strong> of 251 jobs</p>
+            
+            <div class="grid | gap-[2rem] | place-items-center">
+                <% jobInformation.forEach(function(jobInformation) { %> <%- 
+                    include('../../components/card-listing/job-feed-card', {jobInformation}) %> <% }); %>
+            </div>
+
+            <div class="flex | justify-between">
+                <button class="primary-button">Prev</button>
+                <button class="primary-button | flex | gap-[10px] | items-center | px-[12px]"> 1 <img src="/assets/images/listing-icons/arrow-down.svg"></button>
+                <button class="primary-button">Next</button>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class= " w-full | hidden | lg:flex | flex-col | drop-shadow-sm | border-gray-300 | border-[1px] | rounded-[6px] | p-[2rem] | gap-[3rem]">
+            <div class="w-[324px] | h-[175px] bg-gray-400">
+                <img> 
+            </div>
+            <div class="[&>*]:leading-7 | [&>*]:font-inter">
+                <h4 class="text-[24px] | font-extrabold | text-[#2D317B;]"> Construction Worker </h4>
+                <h4 class="text-[18px] | font-normal | text-[#1A0DB3]"> Gawang Kanal Agency </h4>
+                <h4 class="text-[18px] | font-normal | text-black"> Tawi Tawi</h4>
+            </div>
+
+            <div class="flex | flex-col | gap-2">
+                <div class="flex | gap-[6px] | items-center">
+                    <img src="/assets/images/listing-icons/recruit.svg">
+                    <p class="text-green | text-[16px] | font-semibold | font-inter">Actively Recruiting</p>
+                </div>
+    
+                <div class="flex | gap-[10px] | [&>*]:font-inter">
+                    <button class="small-secondary-button | text-[16px] | px-[13px] | py-[2px] | bg-red | hover:opacity-90">PHP 620 per day</button>
+                    <button class="small-secondary-button | text-[16px] | px-[13px] | py-[2px] | bg-red | hover:opacity-90">Free Food</button>
+                    <button class="small-secondary-button | text-[16px] | px-[13px] | py-[2px] | bg-red | hover:opacity-90">Arawan</button>
+                    <button class="small-secondary-button | text-[16px] | px-[13px] | py-[2px] | bg-red | hover:opacity-90">Tatlong Buwan</button>
+                </div>
+            </div>
+
+            <div class="font-inter | text-[16px]">
+                <p>
+                     Ikaw ba ay isang bihasang at dedikadong manggagawa sa konstruksyon na 
+                    naghahanap ng isang kahanga-hangang pagkakataon na maging bahagi ng 
+                    isang dinamikong koponan sa konstruksyon? Huwag nang maghanap pa! Sumali 
+                    sa aming pangungunang kumpanya sa konstruksyon habang binabaybay namin 
+                    ang mga bagong proyekto na nagbibigay ng tunay na impact sa aming komunidad.
+                </p>
+
+                </br>
+
+                <p><strong>Posisyon : </strong> Manggagawa sa Konstruksyon </p>
+
+                </br>
+
+                <h6><strong>Mga Responsibilidad sa Trabaho:</strong></h6>
+
+                <br>
+
+                <ul class="list-disc | ml-[1rem]">
+                    <li>
+                        Isagawa ang iba't ibang mga gawain sa konstruksyon, kabilang ang paghuhukay, pagbuhos ng 
+                        kongkreto, paggawa ng balangkas, pagtutukod ng bubong, at pagtatapos ng trabaho.
+                    </li>
+                    <li>
+                        Nang ligtas na gamitin ang iba't ibang mga kagamitan at kagamitang pangkonstruksyon.
+                    </li>
+                    <li>
+                        Makipagtulungan sa mga supervisoryo at kasapi ng koponan upang matiyak na 
+                        ang mga layunin ng proyekto ay maabot nang mabilis at maaayos.
+                    </li>
+                    <li>
+                        Panatilihing malinis at maayos ang lugar ng trabaho upang masiguro 
+                        ang kaligtasan at produktibidad.
+                    </li>
+                </ul>
+
+                <br>
+
+                <h6><strong>Mga Kinakailangan:</strong></h6>
+
+                <br>
+
+                <ul class="list-disc | ml-[1rem]">
+                    <li>
+                        Napatunayang karanasan bilang manggagawa sa konstruksyon na 
+                        may matibay na rekord ng matagumpay na mga proyekto.
+                    </li>
+                    <li>
+                        Kasanayan sa paggamit ng mga kagamitan at kagamitang pangkonstruksyon.
+                    </li>
+                    <li>
+                        Kaalaman sa mga patakaran at regulasyon sa kaligtasan sa konstruksyon.
+                    </li>
+                    <li>
+                        Kakayahan sa pagtatrabaho nang maayos sa isang koponan at 
+                        pag-aayos sa mga pagbabago sa mga pangangailangan ng proyekto.
+                    </li>
+                    <li>
+                        Malakas na etika sa trabaho, mapagkakatiwalaan, at may dedikasyon sa pagsunod sa mga takdang panahon.
+                    </li>
+                </ul>
+                <br>
+                <h6><strong>Mga Benepisyo</strong></h6>
+                <br>
+                <ul class="list-disc | ml-[1rem]">
+                    <li>Sampong Taon na pagkakakulong</li>
+                    <li>Free paraphernalia para trabaho lang ang nasa isip</li>
+                    <li>Suportadong at inklusibong kapaligiran sa trabaho.</li>
+                    <li>Malawakang benepisyo sa kalusugan at seguro.</li>
+                </ul>
+            </div>
+            <div class="flex | gap-[12px] | [&>*]:rounded-[6px]">
+
+                <img src="https://www.bria.com.ph/wp-content/uploads/2023/03/House-construction.png" alt="" 
+                    class= "max-w-[200px] | max-h-[200px] | xl:max-w-[300px] | xl:max-h-[300px] | shrink | object-cover">
+
+                <img src="https://image.cnbcfm.com/api/v1/image/106811484-1608045351058-gettyimages-1126750618-dsc_1540.jpeg?v=1608045431" alt="" 
+                    class="max-w-[200px] | max-h-[200px] | xl:max-w-[300px] | xl:max-h-[300px] | shrink | object-cover">
+            </div>
+            <div class="[&>*]:font-inter | [&>*]:text-[16px] | flex | gap-[1rem]">
+                <button class="secondary-button">Mag Apply Na</button>
+                <button class="secondary-button">Save</button>
+                <button class="secondary-button">Mga Katulad</button>
+            </div>
+        </div>
+    </div>
+</div>
+

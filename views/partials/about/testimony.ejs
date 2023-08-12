@@ -1,0 +1,11 @@
+<!-- changed the mt-8 to my-8-->
+<div class="w-full | flex | flex-col | items-center | py-[6rem] | font-assistant">
+  <!-- Start of Card container-->
+  <div class="px-5 grid | gap-10 | md:grid-cols-2">
+
+    <% testimonyInformation.forEach(function(testimonyInformation) { %> <%-
+      include('../../components/information-cards/testimony-content', {testimonyInformation}) %> <% }); %>
+      
+  </div>
+  <!-- End of Card Container -->
+</div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Link -->
+<%- include('../partials/shared/head.ejs'); %>
+<body>
+
+    <!-- Header -->
+    <header> <%- include('../partials/shared/header.ejs'); %> </header>
+    <main>
+        <!-- Hero Section-->
+
+        <section> 
+            <%- include('../partials/home/hero.ejs'); %> 
+        </section>
+
+        <!-- Call to Action Registration Section-->
+
+        <section> 
+            <%- include('../partials/home/cta-registration.ejs'); %> 
+        </section>
+
+        <!-- Popular Listing Section -->
+        
+        <section>   
+            <%- include('../partials/home/popular-listing.ejs', {popularInformation}); %>
+        </section>
+
+        <!-- New Listing Section -->
+
+        <section>   
+            <%- include('../partials/home/new-listing.ejs', {newInformation}); %>
+        </section>
+
+        <!-- Call to Action Employer Registration Section -->
+
+        <section> 
+            <%- include('../partials/home/cta-employer-registration'); %> 
+        </section>
+
+        <!-- Newsletter Section -->
+
+        <section> 
+            <%- include('../partials/shared/newsletter.ejs'); %> 
+        </section>
+
+        <!-- Latest Blog -->
+
+        <section>
+            <%- include('../partials/shared/blog.ejs', {blogInformation}); %>
+        </section>
+    </main>
+
+    <footer> <%- include('../partials/shared/footer.ejs'); %> </footer>
+    <!-- JS Libary -->
+    <%- include('../jsLibrary/library.ejs'); %>
+</body>
+</html>
