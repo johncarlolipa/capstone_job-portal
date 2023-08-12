@@ -1,6 +1,6 @@
 let jobInformation = [
   {
-    img: "#",
+    img: "/assets/company/1.svg",
 
     position: "Tubero",
     recruiter: "Gedli Inc.",
