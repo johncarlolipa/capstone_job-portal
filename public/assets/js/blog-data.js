@@ -15,9 +15,9 @@ let blogInformation = [
         },
         {
             date: "February 25th, 2023",
-            headline:"I-ilang mga pilipino ang nagkaroon ng trabaho dahil sa hanap",
+            headline:"Kahalagahan ng Work-Life Balance",
             author: "By: Pedro Penduko",
-            description: "Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya, mahirap mapanatili ang balanse sa pagitan ng trabaho at personal na buhay. Narito ang ilang paraan para mapanatili...",
+            description: "Sa mundo ngayon kung saan tayo palaging konektado sa teknolohiya, mahirap mapanatili ang balanse sa pagitan ng trabaho at personal na buhay. Narito ang ilang paraan para mapanatili sa pagitan ng trabaho at personal na...",
             button: "secondary-button | w-[139px]"
         }
     ]
