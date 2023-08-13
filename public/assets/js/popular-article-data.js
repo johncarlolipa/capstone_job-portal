@@ -1,5 +1,6 @@
 let poparticleInformation = [
   {
+
     date: "March 14th, 2019",
     headline: "I-ilang mga pilipino ang nagkaroon ng trabaho dahil sa hanap",
     author: "By: Jose Batumbakal",

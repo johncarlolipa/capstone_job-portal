@@ -1,6 +1,6 @@
 let popularInformation = [
     {
-        img: "/assets/company/1.svg",
+        image: "/assets/images/thumbnails/plumbing.jpg",
 
         position: "Tubero",
         recruiter: "Gedli",
@@ -10,7 +10,7 @@ let popularInformation = [
         perks: "Free Food",
     },
     {
-        img: "#",
+        image: "/assets/images/thumbnails/grave.jpg",
 
         position: "Sepultulero",
         recruiter: "St.Peter",
@@ -20,7 +20,7 @@ let popularInformation = [
         perks: "Unli Rice",
     },
     {
-        img: "#",
+        image: "/assets/images/thumbnails/welder.jpg",
 
         position: "Welder",
         recruiter: "Batumbakal Corp.",
@@ -30,7 +30,7 @@ let popularInformation = [
         perks: "Unli Drinks",
     },
     {
-        img: "#",
+        image: "/assets/images/thumbnails/kusinero.png",
 
         position: "Kusinero",
         recruiter: "Lababo Inc.",

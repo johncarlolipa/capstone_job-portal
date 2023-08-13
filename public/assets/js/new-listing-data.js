@@ -1,43 +1,43 @@
 let newInformation = [
     {
-        img: "#",
+        image: "/assets/images/thumbnails/embalmers.jpg",
 
-        position: "Tubero",
-        recruiter: "Gedli",
-        location: "Marikina City",
+        position: "Embalsamador",
+        recruiter: "Pangalawang Buhay TM",
+        location: "Sulu",
 
-        salary: "PHP 650 per day",
-        perks: "Free Food",
+        salary: "PHP 750 per linis",
+        perks: "Free Tools",
     },
     {
-        img: "#",
+        image: "/assets/images/thumbnails/donut.jpg",
 
-        position: "Sepultulero",
-        recruiter: "St.Peter",
-        location: "North Cemetery",
+        position: "Donut Maker",
+        recruiter: "Mister Donut",
+        location: "Palawan",
 
         salary: "PHP 550 per day",
-        perks: "Unli Ulam",
+        perks: "Unli Donut",
     },
     {
-        img: "#",
+        image: "/assets/images/thumbnails/mason.png",
 
-        position: "Welder",
-        recruiter: "Batumbakal Corp.",
-        location: "Tondo City",
-
-        salary: "PHP 350 per day",
-        perks: "Free Utencils",
-    },
-    {
-        img: "#",
-
-        position: "Kusinero",
-        recruiter: "Lababo Inc.",
-        location: "Pasay City",
+        position: "Mason",
+        recruiter: "Gawang Kalawang Inc.",
+        location: "Batanes",
 
         salary: "PHP 450 per day",
-        perks: "Unli Kape",
+        perks: "Free Lunch",
+    },
+    {
+        image: "/assets/images/thumnails/clean.jpg",
+
+        position: "Chief Executive Cleaner",
+        recruiter: "Your Name",
+        location: "Ilocos Norte",
+
+        salary: "PHP 350 per day",
+        perks: "Free Joy",
     },
 ] 
 
