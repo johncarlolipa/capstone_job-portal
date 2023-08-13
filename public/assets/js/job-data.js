@@ -1,6 +1,6 @@
 let jobInformation = [
   {
-    img: "/assets/company/1.svg",
+    image: "/assets/images/thumbnails/plumbing.jpg",
 
     position: "Tubero",
     recruiter: "Gedli Inc.",
@@ -11,7 +11,7 @@ let jobInformation = [
       "Ang tubero ay responsable sa pag-aayos at pagmamaintain ng mga plumbing system sa mga residential, komersyal, at industriyal na mga establisyimento.",
   },
   {
-    img: "#",
+    image: "/assets/images/thumbnails/kusinero.png",
 
     position: "Kusinero",
     recruiter: "Foodtrip Corp.",
@@ -22,7 +22,7 @@ let jobInformation = [
       "Ang kusinero ay responsableng magluto at maghanda ng masasarap na pagkain para sa mga kliyente sa aming establisyimento. ",
   },
   {
-    img: "#",
+    image: "/assets/images/thumbnails/welder.jpg",
 
     position: "Welder",
     recruiter: "Batumbakal Assoc.",
