@@ -115,7 +115,7 @@ app.get('/employer', function(req, res){
   })
 });
 
- // Log In Page 
+ // Login Page 
 
  app.get('/login', function(rec, res){
   res.render('pages/login',{
@@ -125,11 +125,20 @@ app.get('/employer', function(req, res){
  })
 
 
+ // Register Page
+
+
  app.get('/register', function(rec, res){
   res.render('pages/register',{
     /* Blog Data */ 
     blogInformation: blogInformation
   });
+ }) 
+
+
+
+ app.get('/privacy', function(rec, res){
+  res.render('pages/privacy')
  }) 
 // Server port
 

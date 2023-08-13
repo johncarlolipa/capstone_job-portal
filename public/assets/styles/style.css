@@ -662,6 +662,27 @@ video {
 .top-4{
   top: 1rem;
 }
+.top-64{
+  top: 16rem;
+}
+.right-0{
+  right: 0px;
+}
+.top-0{
+  top: 0px;
+}
+.bottom-0{
+  bottom: 0px;
+}
+.left-0{
+  left: 0px;
+}
+.right-10{
+  right: 2.5rem;
+}
+.bottom-10{
+  bottom: 2.5rem;
+}
 .col-span-2{
   grid-column: span 2 / span 2;
 }
@@ -1444,6 +1465,9 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline{
+  text-decoration-line: underline;
 }
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
