@@ -30,12 +30,10 @@ let newInformation = [
         perks: "Free Lunch",
     },
     {
-        image: "/assets/images/thumnails/clean.jpg",
-
-        position: "Chief Executive Cleaner",
+        image: "/assets/images/thumbnails/clean.jpg",
+        position: "Executive Cleaner",
         recruiter: "Your Name",
         location: "Ilocos Norte",
-
         salary: "PHP 350 per day",
         perks: "Free Joy",
     },
