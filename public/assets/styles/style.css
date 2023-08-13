@@ -843,11 +843,11 @@ video {
 .min-w-\[300px\]{
   min-width: 300px;
 }
-.min-w-\[330px\]{
-  min-width: 330px;
-}
 .min-w-\[390px\]{
   min-width: 390px;
+}
+.min-w-\[330px\]{
+  min-width: 330px;
 }
 .max-w-\[1200px\]{
   max-width: 1200px;
