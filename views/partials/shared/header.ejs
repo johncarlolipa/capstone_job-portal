@@ -39,9 +39,9 @@
         <!-- Header Buttons End-->
 
         <!--  Responsive Hamburger -->
-        <div class="flex | xl:hidden | items-center">
+        <button class="flex | xl:hidden | items-center" id="hamburger-button">
           <img src="/assets/images/icons/hamburger-menu.svg" alt="hamburger" />
-        </div>
+        </button>
         <!-- End of Responsive Hamburger-->
       </div>
       <!-- End of Button Section-->
@@ -49,4 +49,21 @@
 
     <!-- End of Left Section-->
   </div>
+</div>
+
+<!-- Mobile Toggle -->
+
+<div id="mobile-menu" class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col bg-[#ECFCFF]">
+<!-- <button class="text-8xl self-end px-6">
+          &times;
+      </button> -->
+    <nav class="[&>*]w-full flex | flex-col | justify-center | gap-[4rem] | text-blue-500 | py-[4rem]"  aria-label="mobile">
+        <a href="/" class="font-inter | font-semibold | text-[20px] | text-center hover:underline">Home</a>
+        <a href="/about" class="font-inter | font-semibold | text-[20px] | text-center hover:underline">About Us</a>
+        <a href="/trabaho" class="font-inter | font-semibold | text-[20px] | text-center hover:underline">Trabaho</a>
+        <a href="/blog" class="font-inter | font-semibold | text-[20px] | text-center hover:underline">Blog</a>
+        <a href="/employer" class="font-inter | font-semibold | text-[20px] | text-center hover:underline">Employer</a>
+        <a href="/login" class="font-inter | font-semibold | text-[20px] | text-center hover:underline inline-block md:hidden">Sign In</a>
+        <a href="/register" class="font-inter | font-semibold | text-[20px] | text-center hover:underline inline-block md:hidden">Sign Up</a>
+    </nav>
 </div>
