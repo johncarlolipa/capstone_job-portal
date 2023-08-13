@@ -135,11 +135,19 @@ app.get('/employer', function(req, res){
   });
  }) 
 
-
+// Privacy Policy Page
 
  app.get('/privacy', function(rec, res){
   res.render('pages/privacy')
  }) 
+
+// Cookies Policy Page
+
+ app.get('/cookies', function(rec, res){
+  res.render('pages/cookies')
+ }) 
+
+
 // Server port
 
 app.listen(3000);
