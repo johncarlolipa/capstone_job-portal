@@ -6,6 +6,7 @@
 
 ## Technologies Used
 
+- **Javascript:** The primary language used in building this website.
 - **EJS (Embedded JavaScript):** EJS is used for templating to generate dynamic content for our web pages.
 - **HTML, CSS:** The backbone of our project, providing structure, style, and layout.
 - **Alpine.js:** Empowering dynamic interactions and functionalities on the client-side.
@@ -55,7 +56,7 @@
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone [<repository_url>](https://github.com/johncarlolipa/capstone_job-portal)`
 2. Install dependencies: `npm install`
 3. Open the project in your preferred code editor.
 4. Run the application locally: `npm run dev`
